@@ -104,7 +104,7 @@ export function WhyChoose() {
           <video
             autoPlay
             loop
-            muted
+            
             playsInline
             className="w-full h-full object-cover"
           >
@@ -115,14 +115,7 @@ export function WhyChoose() {
           </video>
           <div className="absolute inset-0 bg-black/70"></div>
         </div>
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-6xl mb-4">
-            Why Choose <span className="text-orange-500">TRIP MEDIA</span>
-          </h1>
-          <p className="text-xl text-white/80">
-            The reasons that make us Dubai's leading creative media studio
-          </p>
-        </div>
+   
       </section>
 
       {/* Main Reasons */}
